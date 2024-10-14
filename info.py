@@ -104,7 +104,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "bots.hostingup.icu:8044/") # Fill env at deoplyment time Stream Mode Is True else avoide 
+URL = environ.get("URL", "https://fat-storm-mlfiles-a9e0364b.koyeb.app/") # Fill env at deoplyment time Stream Mode Is True else avoide 
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
